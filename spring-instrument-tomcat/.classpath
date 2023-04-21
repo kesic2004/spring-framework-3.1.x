@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/catalina/com.springsource.org.apache.catalina/6.0.16/com.springsource.org.apache.catalina-6.0.16.jar" sourcepath="F:/repo1/org/apache/catalina/com.springsource.org.apache.catalina/6.0.16/com.springsource.org.apache.catalina-6.0.16-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

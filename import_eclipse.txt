@@ -1,0 +1,17 @@
+1. clone source code
+    git clone git@gitee.com:real_sccl_lee/spring-framework-3.1.x.git
+2. clone dependencies
+    链接:https://pan.baidu.com/s/1kfmpEwaHgOhFG2oaQWgYDA 提取码:real，下载完成后解压到临时文件夹:git pull
+    选择源码所需要的jar，在不改变文件夹的结构的情况下，复制到本地Maven仓库
+3. 修改.classpath
+    修改.classpath中的引用的jar文件的根路径
+4. import
+    找到源码根中的import_index.txt，按照文件中的顺序进行导入
+5. 修改MyBuild.xml
+    修改MyBuild.xml中的rootPath的值为当前源码的根的绝对路径
+6. 修改BaseBuild.xml
+    修改BaseBuild.xml中的DEPENDENCE_ROOT值为引用根的绝对路径
+
+QQ：3121956595，附言：spring-framework-3.1.x
+
+如果有源代码看不到的情况，请到jar文件所在文件夹重新确认

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1.jar" sourcepath="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/log4j/com.springsource.org.apache.log4j/1.2.15/com.springsource.org.apache.log4j-1.2.15.jar" sourcepath="F:/repo1/org/apache/log4j/com.springsource.org.apache.log4j/1.2.15/com.springsource.org.apache.log4j-1.2.15-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/junit/junit/4.9/junit-4.9.jar" sourcepath="F:/repo1/junit/junit/4.9/junit-4.9-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8.jar" sourcepath="F:/repo1/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/custommonkey/xmlunit/com.springsource.org.custommonkey.xmlunit/1.2.0/com.springsource.org.custommonkey.xmlunit-1.2.0.jar" sourcepath="F:/repo1/org/custommonkey/xmlunit/com.springsource.org.custommonkey.xmlunit/1.2.0/com.springsource.org.custommonkey.xmlunit-1.2.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/easymock/com.springsource.org.easymock/2.5.1/com.springsource.org.easymock-2.5.1.jar" sourcepath="F:/repo1/org/easymock/com.springsource.org.easymock/2.5.1/com.springsource.org.easymock-sources-2.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar" sourcepath="F:/repo1/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/codehaus/woodstox/com.springsource.com.ctc.wstx/3.2.7/com.springsource.com.ctc.wstx-3.2.7.jar" sourcepath="F:/repo1/org/codehaus/woodstox/com.springsource.com.ctc.wstx/3.2.7/com.springsource.com.ctc.wstx-sources-3.2.7.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/net/sf/jopt-simple/jopt-simple/3.0/jopt-simple-3.0.jar" sourcepath="F:/repo1/net/sf/jopt-simple/jopt-simple/3.0/jopt-simple-3.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/springframework/org.springframework.asm/3.1.0.RC1/spring-asm-3.1.0.RC1.jar" sourcepath="F:/repo1/org/springframework/org.springframework.asm/3.1.0.RC1/spring-asm-3.1.0.RC1-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

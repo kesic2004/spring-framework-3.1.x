@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+
+    <!--/Users/arjen/Projects/Spring/spring-framework-tags/spring-framework-3.0.2.RELEASE
+    <path id="aspectjrt">
+        <pathelement location="F:/real/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.7.1/cf8f3ca56739d3bf8a539362e48f180a31f83433/aspectjweaver-1.7.1.jar"/>
+        <pathelement location="F:/real/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.1/e9ed47b6e3326c4a6666027978315028275ba8aa/aspectjrt-1.7.1.jar"/>
+    </path>
+    
+    <path id="aspectjtools">
+        <pathelement location="F:/real/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.1/e9ed47b6e3326c4a6666027978315028275ba8aa/aspectjrt-1.7.1.jar"/>
+        <pathelement location="F:/real/caches/modules-2/files-2.1/org.aspectj/aspectjtools/1.7.1/76327e987a49c0ca4610a58bc41a13a1aa52aca/aspectjtools-1.7.1.jar"/>
+    </path>
+    
+    <taskdef resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties">
+        <classpath refid="aspectjtools" />
+    </taskdef>
+-->
+    <property name="IAJC_SOURCE" value="1.5" />
+    <property name="IAJC_TARGET" value="1.5" />
+</project>

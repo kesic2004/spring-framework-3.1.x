@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-beans"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-context"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-jdbc"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-orm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-transaction"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-web"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-web-portlet"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-web-servlet"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/activation/com.springsource.javax.activation/1.1.0/com.springsource.javax.activation-1.1.0.jar" sourcepath="F:/repo1/javax/activation/com.springsource.javax.activation/1.1.0/com.springsource.javax.activation-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/el/com.springsource.javax.el/1.0.0/com.springsource.javax.el-1.0.0.jar" sourcepath="F:/repo1/javax/el/com.springsource.javax.el/1.0.0/com.springsource.javax.el-1.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/inject/com.springsource.javax.inject/1.0.0/com.springsource.javax.inject-1.0.0.jar" sourcepath="F:/repo1/javax/inject/com.springsource.javax.inject/1.0.0/com.springsource.javax.inject-1.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/persistence/com.springsource.javax.persistence/1.0.0/com.springsource.javax.persistence-1.0.0.jar" sourcepath="F:/repo1/javax/persistence/com.springsource.javax.persistence/1.0.0/com.springsource.javax.persistence-1.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/portlet/com.springsource.javax.portlet/2.0.0/com.springsource.javax.portlet-2.0.0.jar" sourcepath="F:/repo1/javax/portlet/com.springsource.javax.portlet/2.0.0/com.springsource.javax.portlet-2.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/servlet/com.springsource.javax.servlet/2.5.0/com.springsource.javax.servlet-2.5.0.jar" sourcepath="F:/repo1/javax/servlet/com.springsource.javax.servlet/2.5.0/com.springsource.javax.servlet-2.5.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/servlet/com.springsource.javax.servlet.jsp/2.1.0/com.springsource.javax.servlet.jsp-2.1.0.jar" sourcepath="F:/repo1/javax/servlet/com.springsource.javax.servlet.jsp/2.1.0/com.springsource.javax.servlet.jsp-2.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/antlr/com.springsource.antlr/2.7.6/com.springsource.antlr-2.7.6.jar" sourcepath="F:/repo1/org/antlr/com.springsource.antlr/2.7.6/com.springsource.antlr-2.7.6-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.collections/3.2.0/com.springsource.org.apache.commons.collections-3.2.0.jar" sourcepath="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.collections/3.2.0/com.springsource.org.apache.commons.collections-3.2.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1.jar" sourcepath="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/taglibs/com.springsource.org.apache.taglibs.standard/1.1.2/com.springsource.org.apache.taglibs.standard-1.1.2.jar" sourcepath="F:/repo1/org/apache/taglibs/com.springsource.org.apache.taglibs.standard/1.1.2/com.springsource.org.apache.taglibs.standard-1.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8.jar" sourcepath="F:/repo1/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/hibernate/com.springsource.org.hibernate/3.3.1.GA/com.springsource.org.hibernate-3.3.1.GA.jar" sourcepath="F:/repo1/org/hibernate/com.springsource.org.hibernate/3.3.1.GA/com.springsource.org.hibernate-3.3.1.GA-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/hsqldb/com.springsource.org.hsqldb/1.8.0.9/com.springsource.org.hsqldb-1.8.0.9.jar" sourcepath="F:/repo1/org/hsqldb/com.springsource.org.hsqldb/1.8.0.9/com.springsource.org.hsqldb-1.8.0.9-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/junit/junit/4.9/junit-4.9.jar" sourcepath="F:/repo1/junit/junit/4.9/junit-4.9-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3.jar" sourcepath="F:/repo1/org/slf4j/slf4j-api/1.5.3/slf4j-api-1.5.3-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/slf4j/slf4j-jcl/1.5.3/slf4j-jcl-1.5.3.jar" sourcepath="F:/repo1/org/slf4j/slf4j-jcl/1.5.3/slf4j-jcl-1.5.3-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/testng/testng/5.12.1/testng-5.12.1.jar" sourcepath="F:/repo1/org/testng/testng/5.12.1/testng-5.12.1-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-aop"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-beans"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-context"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-core"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1.jar" sourcepath="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/transaction/com.springsource.javax.transaction/1.1.0/com.springsource.javax.transaction-1.1.0.jar" sourcepath="F:/repo1/javax/transaction/com.springsource.javax.transaction/1.1.0/com.springsource.javax.transaction-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/com/ibm/websphere/com.springsource.com.ibm.websphere.uow/6.0.2.17/com.springsource.com.ibm.websphere.uow-6.0.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/ejb/com.springsource.javax.ejb/3.0.0/com.springsource.javax.ejb-3.0.0.jar" sourcepath="F:/repo1/javax/ejb/com.springsource.javax.ejb/3.0.0/com.springsource.javax.ejb-3.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/resource/com.springsource.javax.resource/1.5.0/com.springsource.javax.resource-1.5.0.jar" sourcepath="F:/repo1/javax/resource/com.springsource.javax.resource/1.5.0/com.springsource.javax.resource-1.5.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/easymock/com.springsource.org.easymock/2.5.1/com.springsource.org.easymock-2.5.1.jar" sourcepath="F:/repo1/org/easymock/com.springsource.org.easymock/2.5.1/com.springsource.org.easymock-sources-2.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/junit/junit/4.9/junit-4.9.jar" sourcepath="F:/repo1/junit/junit/4.9/junit-4.9-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0.jar" sourcepath="F:/repo1/org/aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8.jar" sourcepath="F:/repo1/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/persistence/com.springsource.javax.persistence/1.0.0/com.springsource.javax.persistence-1.0.0.jar" sourcepath="F:/repo1/javax/persistence/com.springsource.javax.persistence/1.0.0/com.springsource.javax.persistence-1.0.0-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="package" name="jdbc">
+    <!--根路径.-->
+    <property name="rootPath" value="F:/spring-framework-3.1.x/spring-framework-3.1.x"/>
+    
+    <import file="${rootPath}/src/BaseBuild.xml"/>
+    
+    <import file="${rootPath}/src/AjBuild.xml"/>
+    
+    <!--模块名，定义为：模块所在文件夹和输出结果的前缀相同，如spring-core.-->
+    <property name="moduleName" value="spring-${ant.project.name}"/>
+    
+    <!--模块路径.-->
+    <property name="modulePath" value="${rootPath}/${moduleName}"/>
+    
+    <!--结果根路径.-->
+    <property name="outputPath" value="${modulePath}/${MY_BUILD}"/>
+    
+    <!-- 编译输出路径.-->
+    <property name="binaryPath" value="${outputPath}/bin"/>
+    
+    <!-- 源文件路径. -->
+    <property name="srcPath1" value="${modulePath}/src/main/java"/>
+    <property name="srcPath2" value="${modulePath}/src/main/resources"/>
+    
+    <!-- 内部模块引用. -->
+    <path id="moduleReference">
+        <pathelement location="${rootPath}/spring-transaction/${MY_BUILD}/spring-transaction-${VERSION}.jar"/>
+        <pathelement location="${rootPath}/spring-beans/${MY_BUILD}/spring-beans-${VERSION}.jar"/>
+        <pathelement location="${rootPath}/spring-core/${MY_BUILD}/spring-core-${VERSION}.jar"/>
+        <pathelement location="${rootPath}/spring-context/${MY_BUILD}/spring-context-${VERSION}.jar"/>
+    </path>
+    
+    <!-- 内部资源引用. -->
+    <path id="innerReference">
+    </path>
+    
+    <!-- 资源引用. -->
+    <path id="repositoryReference">
+        <pathelement location="${DEPENDENCE_ROOT}/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+        <pathelement location="${DEPENDENCE_ROOT}/org/apache/derby/com.springsource.org.apache.derby/10.5.1000001.764942/com.springsource.org.apache.derby-10.5.1000001.764942.jar"/>
+        <pathelement location="${DEPENDENCE_ROOT}/javax/transaction/com.springsource.javax.transaction/1.1.0/com.springsource.javax.transaction-1.1.0.jar"/>
+        <pathelement location="${DEPENDENCE_ROOT}/com/mchange/c3p0/com.springsource.com.mchange.v2.c3p0/0.9.1.2/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar"/>
+    </path>
+    
+    <!--当前版本串.-->
+    <property name="version" value="${VERSION}"/>
+    
+    <!--结果文件名.-->
+    <property name="result" value="${moduleName}-${version}.jar"/>
+    
+    <!--结果文件路径.-->
+    <property name="resultPath" value="${outputPath}/${result}"/>
+    
+    <target name="compile">
+        <!-- 移除字节码文件输出路径. -->
+        <delete dir="${binaryPath}"/>
+        
+        <!-- 新建字节码文件输出路径. -->
+        <mkdir dir="${binaryPath}"/>
+        
+        <!-- 编码java源文件. -->
+        <javac debug="${JAVAC_DEBUG}" destdir="${binaryPath}" encoding="${JAVAC_ENCODING}" failonerror="${JAVAC_FAILONERROR}" includeantruntime="${JAVAC_INCLUDEANTRUNTIME}" includejavaruntime="${JAVAC_INCLUDEJAVARUNTIME}" srcdir="${srcPath1}" target="${JAVAC_TARGET}" verbose="${JAVAC_VERBOSE}">
+            <classpath refid="moduleReference"/>
+            <classpath refid="repositoryReference"/>
+            <classpath refid="innerReference"/>
+        </javac>
+    </target>
+    
+    <target name="package" depends="compile">
+        <!-- 删除目标打包文件. -->
+        <delete file="${resultPath}"/>
+        <jar basedir="${binaryPath}" compress="false" destfile="${resultPath}">
+            <manifest>
+                
+                <attribute name="Implementation-Title" value="${moduleName}"/>
+                
+                <attribute name="Implementation-Version" value="${version}"/>
+                
+            </manifest>
+            <fileset dir="${srcPath1}" includes="**/**"/>
+            <fileset dir="${srcPath2}" includes="**/**"/>
+        </jar>
+        <!-- 移除字节码文件输出路径. -->
+        <delete dir="${binaryPath}"/>
+    </target>
+</project>

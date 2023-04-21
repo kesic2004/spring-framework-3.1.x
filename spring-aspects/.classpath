@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-beans"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-context"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-context-support"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-transaction"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-test"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1.jar" sourcepath="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8.jar" sourcepath="F:/repo1/org/aspectj/aspectjweaver/1.6.8/aspectjweaver-1.6.8-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/junit/junit/4.9/junit-4.9.jar" sourcepath="F:/repo1/junit/junit/4.9/junit-4.9-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1.jar" sourcepath="F:/repo1/org/hamcrest/hamcrest-all/1.1/hamcrest-all-1.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/persistence/com.springsource.javax.persistence/1.0.0/com.springsource.javax.persistence-1.0.0.jar" sourcepath="F:/repo1/javax/persistence/com.springsource.javax.persistence/1.0.0/com.springsource.javax.persistence-1.0.0-sources.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-orm"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

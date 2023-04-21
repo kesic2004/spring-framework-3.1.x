@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1.jar" sourcepath="F:/repo1/org/apache/commons/com.springsource.org.apache.commons.logging/1.1.1/com.springsource.org.apache.commons.logging-1.1.1-sources.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-aop"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-beans"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-context"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/spring-transaction"/>
+	<classpathentry kind="lib" path="F:/repo1/javax/transaction/com.springsource.javax.transaction/1.1.0/com.springsource.javax.transaction-1.1.0.jar" sourcepath="F:/repo1/javax/transaction/com.springsource.javax.transaction/1.1.0/com.springsource.javax.transaction-1.1.0-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/com/mchange/c3p0/com.springsource.com.mchange.v2.c3p0/0.9.1.2/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" sourcepath="F:/repo1/com/mchange/c3p0/com.springsource.com.mchange.v2.c3p0/0.9.1.2/com.springsource.com.mchange.v2.c3p0-0.9.1.2-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/junit/junit/4.9/junit-4.9.jar" sourcepath="F:/repo1/junit/junit/4.9/junit-4.9-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/easymock/com.springsource.org.easymock/2.5.1/com.springsource.org.easymock-2.5.1.jar" sourcepath="F:/repo1/org/easymock/com.springsource.org.easymock/2.5.1/com.springsource.org.easymock-sources-2.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/hsqldb/com.springsource.org.hsqldb/1.8.0.9/com.springsource.org.hsqldb-1.8.0.9.jar" sourcepath="F:/repo1/org/hsqldb/com.springsource.org.hsqldb/1.8.0.9/com.springsource.org.hsqldb-1.8.0.9-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/com/h2database/com.springsource.org.h2/1.0.71/com.springsource.org.h2-1.0.71.jar" sourcepath="F:/repo1/com/h2database/com.springsource.org.h2/1.0.71/com.springsource.org.h2-1.0.71-sources.jar"/>
+	<classpathentry kind="lib" path="F:/repo1/org/apache/derby/com.springsource.org.apache.derby/10.5.1000001.764942/com.springsource.org.apache.derby-10.5.1000001.764942.jar" sourcepath="F:/repo1/org/apache/derby/com.springsource.org.apache.derby/10.5.1000001.764942/com.springsource.org.apache.derby-10.5.1000001.764942-sources.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
